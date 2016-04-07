@@ -3,6 +3,10 @@
 <!--<script src="assets/content/js/Resetpassword.js" type="text/javascript"></script>-->
 <?php
 session_start();
+
+/*
+ hello
+*/
 if (isset($_POST['btnLogin'])) {
     //echo 'Hello';
     $mcnt_AccessCode = trim($_POST['mcnt_AccessCode']);
