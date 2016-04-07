@@ -7,6 +7,7 @@ session_start();
 /*
  hello
  * my name is Emran
+ * hello everyone
 */
 if (isset($_POST['btnLogin'])) {
     //echo 'Hello';
